@@ -1,0 +1,151 @@
+body {
+  background-image: url("src/cloudy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  color: black;
+  font-family: cursive;
+  font-size: 36px;
+  font-weight: 100px;
+  line-height: 28px;
+  margin: 0;
+  padding: 10px;
+}
+h2 {
+  font-family: cursive;
+  font-size: 30px;
+  padding: bottom 0;
+}
+
+span {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.degrees {
+  margin-bottom: 10px;
+  font-size: 15px;
+  bottom: 10px;
+}
+.current {
+  font-size: xx-large;
+}
+.form-control {
+  border-radius: 15px;
+  line-height: 24px;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.location {
+  display: 0 auto;
+  text-align: center;
+}
+#specific {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+#cloudy {
+  width: 120px;
+  padding-left: 15px;
+}
+#weatherCircle {
+  border: 10px solid rgb(47, 82, 236);
+  background-color: white;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 100px;
+  max-width: 600px;
+  max-height: 600px;
+  text-align: center;
+  display: 10px auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+#searchBar {
+  text-align: center;
+}
+
+#search-text-input {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 450px;
+
+  justify-content: center;
+}
+#weather {
+  padding-left: 40px;
+  border: 1px solid white;
+  background-color: white;
+  background: #ccc;
+  filter: alpha(opacity=60);
+  margin-top: 60px;
+  max-width: 700px;
+  border-radius: 20px;
+  padding: 20px, 20px, 20px, 20px;
+}
+.phw {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.float-right {
+  margin-top: 20px;
+}
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input {
+  padding: 0 10px;
+  width: 450px;
+  caret-color: blue;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon {
+  background: white;
+  color: blue;
+}
+
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
