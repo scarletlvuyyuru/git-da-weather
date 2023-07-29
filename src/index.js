@@ -1,5 +1,5 @@
 function formatDate(date) {
-  let currentDate = new Date();
+  let currentDate = Date();
   let day = currentDate.getDay();
   let days = [
     "Sunday",
