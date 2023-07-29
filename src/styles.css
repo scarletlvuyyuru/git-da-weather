@@ -63,6 +63,9 @@ ul {
   width: 120px;
   padding-left: 15px;
 }
+#coded {
+  background-color: blanchedalmond;
+}
 #weatherCircle {
   border: 10px solid teal;
   background-color: white;
