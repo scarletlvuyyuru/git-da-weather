@@ -1,24 +1,37 @@
 function formatDate(date) {
-  let hours = date.getHours();
-
-  let minutes = date.getMinutes();
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
-  }
-  let dayIndex = date.getDay();
-
+  let currentDate = new Date();
+  let day = currentDate.getDay();
   let days = [
     "Sunday",
     "Monday",
     "Tuesday",
     "Wednesday",
-    "Thurday",
+    "Thursday",
     "Friday",
     "Saturday",
-    "Sunday"
   ];
-  let day = days[dayIndex];
-  return `${days[dayIndex]}, ${hours}:${minutes}`;
+  let month = currentDate.getMonth();
+  let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+
+  let date = currentDate.getDate();
+
+  let year = currentDate.getFullYear();
+
+  let today = ` ${days[day]}, ${months[month]}  ${date}  ${year} `;
+  document.getElementById("local-time").innerHTML = today;
 }
 
 function search(city) {
