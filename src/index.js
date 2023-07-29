@@ -26,7 +26,7 @@ function formatDate(date) {
     "December",
   ];
 
-  let date = currentDate.getDate();
+  let currentDay = currentDate.getDate();
 
   let year = currentDate.getFullYear();
 
